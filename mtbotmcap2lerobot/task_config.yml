@@ -1,0 +1,6 @@
+# Map MCAP episode directory names to task descriptions.
+# Examples:
+# "^pick_cup.*": "pick up the cup"
+# "^place.*": "place the object"
+
+"^.*$": "robot arm demonstration"
