@@ -34,6 +34,9 @@ nautilus/*.yaml
 # Slurm
 sbatch*.sh
 
+# Local developer convenience scripts (environment-specific)
+**/use.sh
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
