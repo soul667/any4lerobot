@@ -20,7 +20,8 @@ def _load_rosbag2():
         from rosidl_runtime_py.utilities import get_message
     except ImportError as exc:
         raise ImportError(
-            "ROS bag Python APIs are required. Source your ROS environment before running this converter."
+            "ROS bag Python APIs are required. Source your ROS environment and use the same Python "
+            f"minor version as ROS. Original import error: {exc}"
         ) from exc
 
     return {

@@ -199,7 +199,6 @@ class DatasetConverter:
 def reset_output_dir(output_dir: Path):
     if output_dir.exists():
         shutil.rmtree(output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
 
 
 def main(config: Config):
